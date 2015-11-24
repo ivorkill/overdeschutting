@@ -1,40 +1,65 @@
-@import url(https://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
-html, body {
+html {
     margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-    height: 100%;
-    width: 100%;
-    position: relative;
+    padding: 0;        
 }
+body {
+   	font-family: sans-serif;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+#pagination {
+    text-align: center;
+    margin-top: .5em;
+}
+#pagination ul {
+    list-style-type: none;
+    display: inline;
+}
+
+#pagination li {
+    display: inline;
+    list-style-type: none;
+    color: black;
+}
+#pagination li a {
+     text-decoration: none;
+     color: black;
+ }
+#pagination li a:hover {
+    border: solid 1px red;
+}
+
 #header{
     width: 100%;
     height: 10em;
-    background-color: #23395B;
 }
-footer {
-    width: 100%;
-    height: auto;
-    background-color: #406E8E;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
+#wrapper {
+        width: 80%;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 1);
+		overflow:auto;
+}
 
+footer {
+        background-color: #fff000;
+        font-size: 0.8em;
 }
-.wrapper {
-    width: 75%;
-    padding-left: 15%;
-    height: auto;
-    padding-bottom: 5em;
+footer p {
+        margin: 0;
+        padding: 1em 10% 1em 12%;
+		text-align: center;
 }
 
 #top100 {
-    padding: 5em;
-
+    padding-left: 10em;
+    float: left;
+    padding-bottom: 3em;
+    
 }
 
 #top100 ul {
@@ -43,14 +68,15 @@ footer {
 }
 
 #top100 li {
+    background-color: grey;
     display: inline;
     list-style-type: none;
-    color: #ffffff;
+    color: black;
 
 }
 #top100 li a {
     text-decoration: none;
-    color: #ffffff;
+    color: black;
 }
 #top100 li a:hover {
     color: red;
@@ -69,11 +95,11 @@ footer {
 #menu li {
     display: inline;
     list-style-type: none;
-    color: #ffffff;
+    color: black;
 }
 #menu li a {
      text-decoration: none;
-     color: #ffffff;
+     color: black;
  }
 #menu li a:hover {
     color: red;
@@ -86,14 +112,4 @@ input,textarea {
     border-radius:3px;
     background-color:rgba(255,255,255,.6);
     border:solid 1px #b6c7cb;
-}
-article {
-    width: 60%;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
-img {
-    margin-right: 5%;
-    float: left;
 }
