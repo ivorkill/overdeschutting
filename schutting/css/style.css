@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter);
+
 html, body {
     margin: 0;
     padding: 0;
@@ -88,4 +90,10 @@ input,textarea {
 article {
     width: 60%;
     margin-left: 5%;
+    margin-right: 5%;
+}
+
+img {
+    margin-right: 5%;
+    float: left;
 }
