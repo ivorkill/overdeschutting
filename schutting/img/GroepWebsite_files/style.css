@@ -1,0 +1,188 @@
+@import url(http://fonts.googleapis.com/css?family=roboto);
+@import url(http://fonts.googleapis.com/css?family=lobster);
+*{
+    font: 15px/1.5 Arial,HELVETICA, sans-serif;
+    color: #333;
+}
+html {
+    margin: 0;
+    padding: 0;     
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;  
+}
+#pageimg {
+    background: url(../img/top.png);
+    background-size: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+}
+#pagination {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 28px;
+}
+#pagination ul {
+    list-style-type: none;
+    display: inline;
+}
+#pagination li {
+    display: inline;
+    list-style-type: none;
+    color: black;
+}
+#pagination li a {
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+/*was hier gebleven ..cemre */ 
+ #pagination li a:active {
+     background-color: grey;
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+#pagination li a:hover {
+    border: solid 1px red;
+    background-color: white; 
+}
+#header{
+    width: 100%;
+    height: 10em;
+}
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+#wrapper, #top100{
+    height: 1400px;
+}
+footer {
+    background-color: #fff000;
+    font-size: 0.8em;
+    height: 4em;
+    padding: 1em 10% 1em 12%;
+}
+footer p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+#top100 {
+    display: inline-block;
+    float: left;
+}
+#top100 ul {
+    list-style-type: none;
+    display: inline;
+    float:left ;
+}
+#top100 li {
+    background-color: grey;
+    display: inline;
+    list-style-type: none;
+    color: black;
+    float:left;
+}
+#top100 li a {
+    text-decoration: none;
+    color: black;
+}
+#top100 li a:hover {
+    color: red;
+}
+#menu {
+    float: right;
+    margin-top: .5em;
+    margin-right: .5em;
+    padding: 0 5px 8px
+}
+#menu ul {
+    list-style-type: none;
+    display: inline;
+}
+#menu li {
+    display: inline;
+    list-style-type: none;
+    color: #bbb;
+}
+#menu li a {
+     text-decoration: none;
+    color: #bbb;
+    font-size: 12px;
+ }
+#menu li a:hover {
+    color: red;
+}
+input,textarea {
+    width: 10em;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    background-color:rgba(255,255,255,.6);
+    border:solid 1px #b6c7cb;
+}
+section{
+    display: block;
+    height: 60%;
+    width: 60%;
+    float:left;
+}
+section img {
+    margin-left: 10px;
+    margin-right: 10px;
+} 
+aside {
+    display: inline-block;
+    padding-top: 5em; 
+    float:right; 
+    width:10%;
+}
+aside li{
+    list-style: none;
+} 
+#play_image{
+    float: left;
+}
+#social_buttons{
+    display: inline;
+    float: right;
+}
+#social_buttons img{
+    display: inline;
+    margin: 0;
+}
+.btn {
+    opacity: 0.7;
+    color: green;
+}
+.tourpicture {
+    margin-bottom: 2em;
+}
+.mybutton {
+    background-color:#525252;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:20px;
+    padding:10px 14px;
+    text-decoration:none;   
+}
+.mybutton li {
+
+}
+.mybutton:active {
+    color:green;
+}
