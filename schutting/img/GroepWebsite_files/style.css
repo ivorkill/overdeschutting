@@ -47,7 +47,7 @@ body {
      color: black;
      font-weight: bold;
  }
-#pagination  a:hover {
+#pagination li a:hover {
     border: solid 1px red;
     background-color: white; 
 }
