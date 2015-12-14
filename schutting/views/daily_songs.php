@@ -12,7 +12,7 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
-			echo "<a href='?page=song_detail&song_id=".$song['id']."'>Lees meer</a>";
+			echo "<a href='?page=song_detail_page&song_id=".$song['id']."'>Lees meer</a>";
 			}
 			echo '</div>'
 		?>

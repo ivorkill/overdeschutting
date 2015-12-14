@@ -4,6 +4,7 @@
     include 'views/head.html';
     include 'views/header.html';
     include 'views/pagination.php';
+    include 'views/aside.php';
     echo "<div id='wrapper'>";
     $page = (empty($_GET['page'])) ? '' : $_GET['page'];
     $current_day = (empty($_GET['current_day'])) ? '' : $_GET['current_day'];
@@ -17,16 +18,18 @@
         require_once 'model/daily_songs.php';
         include 'views/daily_songs.php';
         break;
-    case 'song_detail':
-        require_once 'model/select_song.php';
-        include 'views/song_detail.php';
+    case 'song_detail_page':
+        require_once 'model/song_detail.php';
+        include 'views/song_detail_page.php';
+        break;
+    case 'contest':
+        include 'views/prijsvraag.php';
         break;
     default:
         require_once 'model/select_song.php';
         include 'views/songs.php';
         break;
     }
-    include 'views/aside.php';
     echo "</div>";
     include 'views/footer.html';
 ?>
