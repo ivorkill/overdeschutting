@@ -1,5 +1,5 @@
 <div id="content">
-	<div id="articles">
+	<div id="top100">
 	<h2>Complete Tour Top<img src="img/top100logo.png"></h2>
 		<?php
 			while ($song = $result->fetch_assoc()) {
