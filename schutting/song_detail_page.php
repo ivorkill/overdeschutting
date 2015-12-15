@@ -25,32 +25,16 @@
     <h2>Reageer op dit bericht </h2>
 </div>
 <div id="comment_form">
-<form method="post" action="index.php?page=insert">
+<form method="post">
     <h4>Gebruikersnaam</h4>
     <input type="text" name="username">
     <h4>E-mail</h4>
+    <input type="email" name="email">
+    <h4>Website</h4>
     <input type="email" name="email">
     <h4>Commentaar</h4>
     <textarea rows="4" cols="50" name="commentbox">
      </textarea>
     <input type="submit" name="submit" value="VERSTUUR">
-
-	<input type="hidden" name="songfield" value="<?php echo $_GET['song_id']; ?>">
-
 </form>
 </div>
-<div id="commenttitle">
-    <h1>Lees de reacties hieronder.</h1><br>
-
-<?php
-while ($comment = $result->fetch_assoc()) {
-    echo '<div id="commentbox">';
-    echo '<h1>' . $comment['username'] . '</h1>';
-    echo '<h1>' . $comment['email'] . '</h1>' . '<br>';
-    echo '<p>' . $comment['comment'] . '</p>' . '<br>';
-    echo '</div>';
-}
-?>
-</form>
-</div>
-
