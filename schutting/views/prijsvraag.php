@@ -1,7 +1,7 @@
  <?php
 
     echo "<div id='wrapper'>";
-    
+
 ?>
    <html> 
       <h1>Prijsvraag</h1><hr>
