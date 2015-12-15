@@ -1,5 +1,6 @@
 <div id="page_title">
-    <h2>In de Radio 1 Tour Top 100</h2>
+    <h1>In de Radio 1 Tour Top 100</h1>
+    <hr>
 </div>
 <div id="detail">
 <?php
@@ -13,8 +14,9 @@
 	};
 	while ($current_song = $current->fetch_assoc()) {
 		$str = "<div id='main_song'><div class='rank'>".$current_song['id']."</div> <h1>".$current_song['artist'].": ".$current_song['song']."</h1>";
-		echo utf8_encode($str);
-		echo "<iframe src='http://www.youtube.com/embed/".$current_song['url']."'></iframe></div>";
+		echo '<br>'. utf8_encode($str);
+        
+        echo '<br>' . "<iframe src='http://www.youtube.com/embed/".$current_song['url']."'></iframe></div>";
 	};	
 ?>
 </div>
@@ -23,6 +25,7 @@
 </div>
 <div id="page_title">
     <h2>Reageer op dit bericht </h2>
+    <hr>
 </div>
 <div id="comment_form">
 <form method="post" action="index.php?page=insert">
