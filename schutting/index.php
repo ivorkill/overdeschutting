@@ -24,7 +24,7 @@ switch ($page) {
         include 'views/song_detail_page.php';
         break;
     case 'contest':
-        include 'views/prijsvraag.php';
+        include '../views/prijsvraag.php';
         break;
     default:
         require_once 'model/select_song.php';
