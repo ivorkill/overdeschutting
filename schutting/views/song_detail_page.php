@@ -34,12 +34,6 @@
     <textarea rows="4" cols="50" name="commentbox">
      </textarea>
     <input type="submit" name="submit" value="VERSTUUR">
-
 	<input type="hidden" name="songfield" value="<?php echo $_GET['song_id']; ?>">
-
 </form>
 </div>
-=======
-</form>
-</div>
-

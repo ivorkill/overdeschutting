@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font: Arial,HELVETICA, sans-serif;
 }
 html {
     margin: 0;
@@ -36,19 +35,21 @@ body {
     display: inline;
     list-style-type: none;
     color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
 #pagination li a {
-     text-decoration: none;
-     color: black;
-     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
  }
 #pagination li a:active {
-     background-color: grey;
+    background-color: grey;
     padding-left: 5px;
     padding-right: 5px;
-     text-decoration: none;
-     color: black;
-     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
  }
 #pagination li a:hover {
     border: solid 1px red;
@@ -90,11 +91,8 @@ footer p {
     box-sizing: border-box;
 }
 #top100 {
-<<<<<<< HEAD
     padding-top: 10px;
-=======
-     padding-top: 1em;
->>>>>>> 8b9287a696af3de52e83416037ae433e0f04c629
+    padding-top: 1em;
     padding-left: 10em;
     padding-bottom: 3em;
     float: left;
@@ -283,4 +281,7 @@ hr {
 }
 #main_song{
     text-align: center;
+}
+#video{
+    float: left;
 }
