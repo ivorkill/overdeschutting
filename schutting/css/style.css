@@ -90,7 +90,6 @@ footer p {
 }
 
 #top100 {
-     padding-top: 1em;
     padding-left: 10em;
     padding-bottom: 3em;
     float: left;
@@ -222,9 +221,10 @@ aside li{
 }
 
 .myButton input {
-        width: 10em;
+    width: 10em;
 }
 .myButton {
+    margin-left: 10px;
 	background-color:#525252;
 	-moz-border-radius:12px;
 	-webkit-border-radius:12px;
