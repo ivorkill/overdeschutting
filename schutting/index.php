@@ -26,6 +26,10 @@ switch ($page) {
     case 'contest':
         include 'views/prijsvraag.php';
         break;
+    case 'insert':
+        include 'model/comment_system.php';
+
+        break;
     default:
         require_once 'model/select_song.php';
         include 'views/songs.php';
