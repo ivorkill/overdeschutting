@@ -1,7 +1,7 @@
 <aside>
 	    <ul>
 	        <li><a href="?page=song_list"><img src="img/Tour_top.jpg"></a></li>
-	        <li><img src="img/Banner_prijsvraag.jpg"></li>
+	        <li><a href="?page=contest"><img src="img/Banner_prijsvraag.jpg"></a></li>
 	        <li><img src="img/Banner1.jpg"><p></p></li>
 	        <li><img src="img/Banner_testimony.jpg"><p></p></li>
 	        <li><img src="img/Banner.jpg"><p></p></li>
