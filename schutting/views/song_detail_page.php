@@ -37,7 +37,18 @@
 
 </form>
 </div>
-=======
+<div id="commenttitle">
+    <h1>Lees de reacties hieronder.</h1><br>
+
+<?php
+while ($comment = $result->fetch_assoc()) {
+    echo '<div id="commentbox">';
+    echo '<h1>' . $comment['username'] . '</h1>';
+    echo '<h1>' . $comment['email'] . '</h1>' . '<br>';
+    echo '<p>' . $comment['comment'] . '</p>' . '<br>';
+    echo '</div>';
+}
+?>
 </form>
 </div>
 

@@ -242,3 +242,10 @@ hr {
 #songs{
      height: 20em;   
 }
+#commenttitle {
+    border: 2px dotted #000;
+}
+
+#commentbox {
+    border: 1px #000000;
+}

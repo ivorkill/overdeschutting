@@ -21,6 +21,7 @@ switch ($page) {
         break;
      case 'song_detail_page':
         require_once 'model/song_detail.php';
+        include 'model/comment_reader.php';
         include 'views/song_detail_page.php';
         break;
     case 'contest':
@@ -28,8 +29,10 @@ switch ($page) {
         break;
     case 'insert':
         include 'model/comment_system.php';
-
         break;
+    case 'comment_read':
+
+
     default:
         require_once 'model/select_song.php';
         include 'views/songs.php';
