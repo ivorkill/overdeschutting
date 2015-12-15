@@ -1,8 +1,8 @@
 <div id="content">
 	<div id="articles">
 		<?php
-			echo '<div id="songs">';
 			while ($song = $result->fetch_assoc()) {
+			echo '<article>';
 			echo '<iframe src="http://www.youtube.com/embed/'.$song['url'].'"></iframe>';
 			$str =  '<h1>'.$song['id'].' '.$song['artist'].' : '.$song['song'].'</h1><br>';
 			echo utf8_encode($str);
@@ -14,7 +14,7 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 			echo "<a href='?page=song_detail_page&song_id=".$song['id']."'>Lees meer</a>";
 			}
-			echo '</div>'
+			echo '</article>'
 		?>
 	</div>
 </div>
