@@ -1,6 +1,13 @@
  <?php
-
+    require_once 'config/config.php';
+    require_once 'config/dbconnect.php';
+    include 'views/head.html';
+    include 'views/header.html';
     echo "<div id='wrapper'>";
+
+
+    include 'views/pagination.php';
+    echo "<section>";
 
 ?>
    <html> 
@@ -26,3 +33,11 @@
     </form>
     </div>
     
+   <?php
+    echo "</section>";
+    include 'views/aside.php';
+
+    echo "</div>";
+    
+    include 'views/footer.html';
+?>
