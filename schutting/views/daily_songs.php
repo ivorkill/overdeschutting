@@ -3,7 +3,7 @@
 		<?php
 			echo "<div id='songs'>";
 			while ($song = $result->fetch_assoc()) {
-			echo "<iframe src='http://www.youtube.com/embed/".$song['url']."'></iframe>";
+			echo "<div id='video'><iframe src='http://www.youtube.com/embed/".$song['url']."'></iframe></div>";
 			$str =  "<h1><div class='rank'>".$song['id']."</div> ".$song['artist']." : ".$song['song']."</h1><br>";
 			echo utf8_encode($str);
 			echo "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod

@@ -34,10 +34,9 @@
     <textarea rows="4" cols="50" name="commentbox">
      </textarea>
     <input type="submit" name="submit" value="VERSTUUR">
-
 	<input type="hidden" name="songfield" value="<?php echo $_GET['song_id']; ?>">
-
 </form>
+</div>
 </div>
 <div id="commenttitle">
     <h1>Lees de reacties hieronder.</h1><br>
@@ -53,4 +52,3 @@ while ($comment = $result->fetch_assoc()) {
 ?>
 </form>
 </div>
-

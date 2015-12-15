@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
+=======
 
+>>>>>>> 2a9d3bb36bba21caa981dadd2cba74efc0c53ed0
 }
 html {
     margin: 0;
@@ -36,19 +39,21 @@ body {
     display: inline;
     list-style-type: none;
     color: black;
+    font-weight: bold;
+    cursor: pointer;
 }
 #pagination li a {
-     text-decoration: none;
-     color: black;
-     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
  }
 #pagination li a:active {
-     background-color: grey;
+    background-color: grey;
     padding-left: 5px;
     padding-right: 5px;
-     text-decoration: none;
-     color: black;
-     font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
  }
 #pagination li a:hover {
     border: solid 1px red;
@@ -287,4 +292,7 @@ hr {
 }
 #main_song{
     text-align: center;
+}
+#video{
+    float: left;
 }
