@@ -33,8 +33,6 @@ switch ($page) {
 }
     echo "</section>";
     include 'views/aside.php';
-
     echo "</div>";
-    
     include 'views/footer.html';
 ?>
