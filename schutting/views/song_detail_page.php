@@ -37,7 +37,6 @@
 	<input type="hidden" name="songfield" value="<?php echo $_GET['song_id']; ?>">
 </form>
 </div>
-</div>
 <div id="commenttitle">
     <h1>Lees de reacties hieronder.</h1><br>
 
