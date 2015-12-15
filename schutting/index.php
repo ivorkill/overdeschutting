@@ -29,10 +29,8 @@ switch ($page) {
         break;
     case 'insert':
         include 'model/comment_system.php';
+        header('location: index.php?page=song_detail_page&song_id=' . $song_id);
         break;
-    case 'comment_read':
-
-
     default:
         require_once 'model/select_song.php';
         include 'views/songs.php';
