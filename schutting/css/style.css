@@ -33,7 +33,6 @@ body {
 #pagination li {
     display: inline;
     list-style-type: none;
-    float: left;
     font-weight: bold;
 }
 #pagination li a {
