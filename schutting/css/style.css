@@ -23,7 +23,6 @@ body {
     height: 40px;
     margin-bottom: 30px;
 }
-
 #pagination {
     text-align: center;
     padding-top: 5px;
@@ -33,14 +32,18 @@ body {
     list-style-type: none;
     display: inline;
 }
-
 #pagination li {
     display: inline;
     list-style-type: none;
     color: black;
-
 }
 #pagination li a {
+     text-decoration: none;
+     color: black;
+     font-weight: bold;
+ }
+ #pagination li a:active {
+     background-color: grey;
     padding-left: 5px;
     padding-right: 5px;
      text-decoration: none;
@@ -49,6 +52,7 @@ body {
  }
 #pagination li a:hover {
     border: solid 1px red;
+    background-color: white; 
     background-color: white;
 }
 
@@ -56,7 +60,6 @@ body {
     border: solid 1px red;
     background-color: white;  
 }
-
 #header{
     width: 100%;
     height: 10em;
@@ -76,10 +79,9 @@ footer {
     background: -moz-linear-gradient(top,  #7d7e7d 0%, #0e0e0e 100%);
     background: -webkit-linear-gradient(top,  #7d7e7d 0%,#0e0e0e 100%);
     background: linear-gradient(to bottom,  #7d7e7d 0%,#0e0e0e 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d',                         endColorstr='#0e0e0e',GradientType=0 );
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d',endColorstr='#0e0e0e',GradientType=0 );
     list-style-type: none;
     text-align: center;
-
 }
 footer p {
     color: white;
@@ -87,26 +89,26 @@ footer p {
     padding-top: 1em;
     box-sizing: border-box;
 }
-
 #top100 {
+<<<<<<< HEAD
     padding-top: 10px;
+=======
+     padding-top: 1em;
+>>>>>>> 8b9287a696af3de52e83416037ae433e0f04c629
     padding-left: 10em;
     padding-bottom: 3em;
     float: left;
 }
-
 #top100 ul {
     list-style-type: none;
     display: inline;
-    float:left ;
+    float:left;
 }
-
 #top100 li {
     display: inline;
     list-style-type: none;
     color: #000;
     float:left;
-
 }
 #top100 li a {
     text-decoration: none;
@@ -116,12 +118,10 @@ footer p {
 #top100 li a:hover {
     color: red;
 }
-
 .menuRight {
     margin-top: 3em; 
     float: right;   
 }
-
 #menu {
     float: right;
     margin-top: .5em;
@@ -132,7 +132,6 @@ footer p {
     list-style-type: none;
     display: inline;
 }
-
 #menu li {
     display: inline;
     list-style-type: none;
@@ -145,7 +144,6 @@ footer p {
 #menu li a:hover {
     color: red;
 }
-
 input,textarea {
     -webkit-border-radius:3px;
     -moz-border-radius:3px;
@@ -154,7 +152,6 @@ input,textarea {
     border:solid 1px #b6c7cb;
     margin-left: 10px;
 }
-
 section{
     display: block;
     height: 60%;
@@ -162,13 +159,10 @@ section{
     float:left;
     padding-left: 1em;
 }
-
 section img {
     margin-left: 10px;
     margin-right: 10px;
 } 
- 
-
 aside { 
     padding-bottom: 20%; 
     float:right; 
@@ -193,17 +187,14 @@ aside li{
 #play_image{
     float: left;
 }
-
 #social_buttons{
     display: inline;
     float: right;
 }
-
 #social_buttons img{
     display: inline;
     margin: 0;
 }
-
 .btn {
     width: 2em;
     color: #fff;
@@ -215,16 +206,13 @@ aside li{
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
 }
-
 .tourPicture {
    margin-bottom: 2em;
 }
-
 .myButton input {
-    width: 10em;
+        width: 10em;
 }
 .myButton {
-    margin-left: 10px;
 	background-color:#525252;
 	-moz-border-radius:12px;
 	-webkit-border-radius:12px;
@@ -250,13 +238,11 @@ hr {
   height: 1px;
   width: 100%;
 }
-
 .buttonStyle {
     background-color:#373737;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-
 #songs{
      height: 20em;   
 }
