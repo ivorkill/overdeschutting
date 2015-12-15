@@ -36,4 +36,3 @@
     <input type="submit" name="submit" value="VERSTUUR">
 </form>
 </div>
-</div>
