@@ -89,6 +89,7 @@ footer p {
 }
 
 #top100 {
+    padding-top: 10px;
     padding-left: 10em;
     padding-bottom: 3em;
     float: left;
