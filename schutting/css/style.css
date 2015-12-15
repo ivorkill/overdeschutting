@@ -235,7 +235,6 @@ hr {
   border: 2px dotted black; }
 
 #commentbox {
-<<<<<<< HEAD
   border: 1px black; }
 
 #songlist h2 {
@@ -274,6 +273,7 @@ hr {
   float: left; }
 
 /*# sourceMappingURL=style.css.map */
+<<<<<<< HEAD
 =======
     border: 1px #000000;
 }
@@ -317,3 +317,5 @@ hr {
 #article_text_more {
     margin-bottom: 20px;   
 }
+=======
+>>>>>>> d2cd8ac6177d2e26e5dcaa8a77dd3b666b31eafc
