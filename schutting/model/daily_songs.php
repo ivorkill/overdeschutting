@@ -3,6 +3,6 @@
 	$offset = 5;
 	$upper_limit = $total_songs - $offset * ($current_day - 2);
 	$bottom_limit  = $upper_limit - $offset;
-    $sql = "SELECT * FROM songs WHERE id BETWEEN $bottom_limit AND $upper_limit";
+    $sql = "SELECT * FROM songs WHERE id BETWEEN $bottom_limit AND $upper_limit ORDER BY id DESC";
     $result = $mysqli->query($sql);
 ?>
