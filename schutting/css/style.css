@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Roboto);
 @import url(http://fonts.googleapis.com/css?family=Lobster);
 *{
@@ -14,6 +15,30 @@ body {
     background-size: 100%;
     background-attachment: fixed;
     
+=======
+*{
+    margin: 0;
+    padding: 0;
+    font: Arial,HELVETICA, sans-serif;
+    color: #333;
+}
+html {
+    margin: 0;
+    padding: 0;     
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    background: url(../img/background.jpg) no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;  
+}
+#pageimg {
+    background: url(../img/top.png);
+    background-size: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+>>>>>>> master
 }
 
 #pageimg {
@@ -26,23 +51,37 @@ body {
 #pagination {
     text-align: center;
     padding-top: 5px;
+<<<<<<< HEAD
     font-size: 24px;
+=======
+    font-size: 20px;
+>>>>>>> master
 }
 #pagination ul {
     list-style-type: none;
     display: inline;
 }
-
 #pagination li {
     display: inline;
     list-style-type: none;
+<<<<<<< HEAD
     color: black;
 
+=======
+    float: left;
+    font-weight: bold;
+>>>>>>> master
 }
 #pagination li a {
      text-decoration: none;
+ }
+/*was hier gebleven ..cemre */ 
+ #pagination li a:active {
+     background-color: grey;
+     text-decoration: none;
      color: black;
      font-weight: bold;
+<<<<<<< HEAD
  }
  
  #pagination li a:active {
@@ -50,13 +89,18 @@ body {
      text-decoration: none;
      color: black;
      font-weight: bold;
+=======
+>>>>>>> master
  }
-#pagination li a:hover {
+#pagination  a:hover {
     border: solid 1px red;
+<<<<<<< HEAD
     background-color: white;
     
+=======
+    background-color: white; 
+>>>>>>> master
 }
-
 #header{
     width: 100%;
     height: 10em;
@@ -65,6 +109,7 @@ body {
     width: 80%;
     margin: 0 auto;
     background-color: rgba(255, 255, 255, 1);
+<<<<<<< HEAD
 	overflow:auto;
 	border-radius: 12px;
 }
@@ -108,6 +153,18 @@ footer {
         list-style-type: none;
         text-align: center;
 
+=======
+    border-radius: 12px;
+}
+#wrapper, #top100{
+    height: 1400px;
+}
+footer {
+    background-color: #fff000;
+    font-size: 0.8em;
+    height: 4em;
+    padding: 1em 10% 1em 12%;
+>>>>>>> master
 }
 footer p {
     text-align: center;
@@ -115,25 +172,36 @@ footer p {
     margin-right: auto;
     box-sizing: border-box;
 }
-
 #top100 {
+<<<<<<< HEAD
     padding-left: 10em;
     padding-bottom: 3em;
     float: left;
+=======
+    display: inline-block;
+                                                                                                                                                                                                                                                                                                                                                                          
+>>>>>>> master
 }
-
 #top100 ul {
     list-style-type: none;
     display: inline;
+<<<<<<< HEAD
     float:left ;
+=======
+    float:left;
+>>>>>>> master
 }
-
 #top100 li {
     display: inline;
     list-style-type: none;
+<<<<<<< HEAD
     color: #000;
     float:left;
 
+=======
+    color: black;
+    float:left;
+>>>>>>> master
 }
 #top100 li a {
     text-decoration: none;
@@ -143,36 +211,42 @@ footer p {
 #top100 li a:hover {
     color: red;
 }
+<<<<<<< HEAD
 
 .menuRight {
     margin-top: 3em; 
     float: right;   
 }
 
+=======
+>>>>>>> master
 #menu {
     float: right;
     margin-top: .5em;
     margin-right: .5em;
+<<<<<<< HEAD
     color: rgba(0,0,0,0.4);
+=======
+    padding: 0 5px 8px
+>>>>>>> master
 }
 #menu ul {
     list-style-type: none;
     display: inline;
 }
-
 #menu li {
     display: inline;
     list-style-type: none;
-    color: black;
+    color: #bbb;
 }
 #menu li a {
      text-decoration: none;
-     color: black;
+    color: #bbb;
+    font-size: 12px;
  }
 #menu li a:hover {
     color: red;
 }
-
 input,textarea {
     width: 10em;
     -webkit-border-radius:3px;
@@ -181,13 +255,18 @@ input,textarea {
     background-color:rgba(255,255,255,.6);
     border:solid 1px #b6c7cb;
 }
+<<<<<<< HEAD
 
 section{
     font-family: "Times New Roman", Times, serif;
+=======
+section{
+>>>>>>> master
     display: block;
     height: 60%;
     width: 60%;
     float:left;
+<<<<<<< HEAD
     padding-left: .5em;
 }
 
@@ -222,15 +301,38 @@ aside li{
     float: left;
 }
 
+=======
+}
+section img {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+aside {
+    display: inline-block;
+    padding-top: 5em; 
+    float:right; 
+    width:10%;
+}
+aside li{
+    list-style: none;
+} 
+#play_image{
+    float: left;
+}
+>>>>>>> master
 #social_buttons{
     display: inline;
     float: right;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 #social_buttons img{
     display: inline;
     margin: 0;
 }
+<<<<<<< HEAD
 
 .btn {
  color: #fff;
@@ -275,4 +377,34 @@ hr {
     background-color:#373737;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
+=======
+.btn {
+    opacity: 0.7;
+    color: green;
+}
+.tourpicture {
+    margin-bottom: 2em;
+}
+.mybutton {
+    background-color:#525252;
+    -moz-border-radius:12px;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:20px;
+    padding:10px 14px;
+    text-decoration:none;   
+}
+.mybutton li {
+
+}
+.mybutton:active {
+    color:green;
+}
+#songs{
+    height: 20em;
+>>>>>>> master
 }
