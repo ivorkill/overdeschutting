@@ -25,21 +25,16 @@
     <h2>Reageer op dit bericht </h2>
 </div>
 <div id="comment_form">
-<form method="post" action="index.php?page=insert">
+<form method="post">
     <h4>Gebruikersnaam</h4>
     <input type="text" name="username">
     <h4>E-mail</h4>
+    <input type="email" name="email">
+    <h4>Website</h4>
     <input type="email" name="email">
     <h4>Commentaar</h4>
     <textarea rows="4" cols="50" name="commentbox">
      </textarea>
     <input type="submit" name="submit" value="VERSTUUR">
-
-	<input type="hidden" name="songfield" value="<?php echo $_GET['song_id']; ?>">
-
 </form>
 </div>
-=======
-</form>
-</div>
-
