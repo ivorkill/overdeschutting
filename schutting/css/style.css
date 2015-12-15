@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 input, textarea {
   border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.6);
@@ -8,6 +9,12 @@ input, textarea {
   margin: 0;
   padding: 0; }
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+>>>>>>> cf0298700594e866593df55944efc1272d5b2949
 html {
   margin: 0;
   padding: 0;
@@ -221,6 +228,7 @@ hr {
   border: 2px dotted black; }
 
 #commentbox {
+<<<<<<< HEAD
   border: 1px black; }
 
 #songlist h2 {
@@ -260,3 +268,48 @@ hr {
   float: left; }
 
 /*# sourceMappingURL=style.css.map */
+=======
+    border: 1px #000000;
+}
+#songs h1{
+    color: #333;
+}
+#songlist h2{
+    color: red;
+    border-bottom: 1px dotted black;
+}
+#songlist a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.rank{
+    display: inline-block;
+    border: 1px solid;
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+#detail h1{
+    color: #333;
+}
+#detail a{
+    text-decoration: none;
+    color: #333;
+}
+#left_song{
+    float: left;
+}
+#right_song{
+    float: right;
+}
+#main_song{
+    text-align: center;
+}
+#video{
+    float: left;
+}
+>>>>>>> cf0298700594e866593df55944efc1272d5b2949
