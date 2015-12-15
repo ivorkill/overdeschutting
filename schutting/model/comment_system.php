@@ -9,4 +9,3 @@ $sql = "INSERT INTO comments (username, email, comment, song_id) VALUES ('$usern
 
 $result = $mysqli ->query($sql);
 
-echo $sql;
